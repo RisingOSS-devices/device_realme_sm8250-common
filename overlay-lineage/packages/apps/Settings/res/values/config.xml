@@ -32,4 +32,9 @@
     <string name="config_batteryDesignCapacity">/sys/class/oplus_chg/battery/design_capacity</string>
     <string name="config_batteryChargeCycles">/sys/class/oplus_chg/battery/battery_cc</string>
     <bool name="config_supportBatteryHealth">true</bool>
+
+    <string name="pickup_sensor" translatable="false">android.sensor.tilt_detector</string>
+
+    <!-- Sensor trigger values -->
+    <item name="pickup_sensor_value" format="float" type="dimen">0.0</item>
 </resources>
