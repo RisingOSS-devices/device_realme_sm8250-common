@@ -110,6 +110,6 @@ void vendor_load_properties() {
     
     // Misc
     property_override("ro.matrixx.chipset", "Snapdragon® 865 5G");
-    property_override("ro.matrixx.device", "Realme X50 Pro");
+    property_override("ro.matrixx.device", "bladerunner");
     property_override("ro.matrixx.maintainer", "AAMIRR ALI");
 }
