@@ -24,6 +24,9 @@ $(call inherit-product, vendor/realme/sm8250-common/sm8250-common-vendor.mk)
 # Viper
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Target VNDK Fallback version
+PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33
+
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
