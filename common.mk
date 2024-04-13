@@ -24,6 +24,10 @@ $(call inherit-product, vendor/realme/sm8250-common/sm8250-common-vendor.mk)
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
+    
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
 
 # Audio
 PRODUCT_PACKAGES += \

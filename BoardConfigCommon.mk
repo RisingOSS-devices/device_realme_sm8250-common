@@ -111,6 +111,9 @@ DEVICE_MANIFEST_FILE += \
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/mmi_charging_enable
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):init_realme_kona
 TARGET_RECOVERY_DEVICE_MODULES := init_realme_kona
