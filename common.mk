@@ -21,6 +21,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Inherit proprietary libraries
 $(call inherit-product, vendor/realme/sm8250-common/sm8250-common-vendor.mk)
 
+# Viper
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
