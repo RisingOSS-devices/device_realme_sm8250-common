@@ -21,6 +21,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Inherit proprietary libraries
 $(call inherit-product, vendor/realme/sm8250-common/sm8250-common-vendor.mk)
 
+#Dolby
+$(call inherit-product-if-exists, hardware/dolby/dolby.mk)
+
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
@@ -363,8 +366,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Parts
-PRODUCT_PACKAGES += \
-    RealmeParts
+#PRODUCT_PACKAGES += \
+#    RealmeParts
 
 # Perf
 PRODUCT_PACKAGES += \
