@@ -74,13 +74,10 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener
 
-#PRODUCT_PACKAGES += \
-#    DolbyManager
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
-
+    
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio
 
 PRODUCT_COPY_FILES += \
